@@ -1,11 +1,11 @@
-# Excel to PostgreSQL CLI
+# Excel to Database CLI
 
 Ce projet est une application CLI permettant d'importer des données depuis un fichier Excel (ex : `users.xlsx`) vers une base de données PostgreSQL. Il est conçu pour être utilisé sous Linux et prend l'entrée via **stdin** (entrée standard), avec les logs gérés via **pino**.
 
 ## Prérequis
 
 - Node.js (>= 16.x)
-- PostgreSQL (avec une base de données configurée)
+- Une base de données relationnelle (Postgres, MySQL)
 - npm (recommandé)
 
 ## Installation
@@ -26,7 +26,7 @@ Ce projet est une application CLI permettant d'importer des données depuis un f
    NODE_ENV=production
    ```
 
-   **Remarque** : Assurez-vous que votre base de données est correctement accessible à l'adresse fournie.
+   **Remarque** : Assurez-vous que votre base de données est correctement accessible à l'adresse fournie. Dans le code ci-dessus, nous avons utiliser une base de données postgres. Vous n'y êtes absolument pas contraint. Vous pouvez utilisé n'importe quel RDBMS de votre choix.
 
    - `user` : nom d'utilisateur de votre base de données.
    - `password` : mot de passe utilisé lors de la création de la base de données.
