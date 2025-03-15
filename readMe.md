@@ -26,7 +26,7 @@ Ce projet est une application CLI permettant d'importer des données depuis un f
    NODE_ENV=production
    ```
 
-   **Remarque** : Assurez-vous que votre base de données est correctement accessible à l'adresse fournie. Vous pouvez tester cela par : `psql postgresql://user:password@localhost:5432/nom_de_la_db` (pour le cas postgres). Dans le code ci-dessus, nous avons utiliser une base de données postgres. Vous n'y êtes absolument pas contraint. Vous pouvez utilisé n'importe quel RDBMS de votre choix.
+   **Remarque** : Assurez-vous que votre base de données est correctement accessible à l'adresse fournie. Vous pouvez tester cela par : `psql postgresql://user:password@localhost:5432/nom_de_la_db` (pour le cas postgres). Dans le code ci-dessus, nous avons utiliser une base de données postgres. Vous n'y êtes absolument pas contraint. Vous pouvez utiliser n'importe quel RDBMS de votre choix.
 
    - `user` : nom d'utilisateur de votre base de données.
    - `password` : mot de passe utilisé lors de la création de la base de données.
